@@ -1,0 +1,24 @@
+body {
+    background-color: #A0A0A0;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.artname {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.by {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.info {
+    border: white 5px solid;
+}
