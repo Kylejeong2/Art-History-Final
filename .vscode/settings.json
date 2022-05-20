@@ -3,6 +3,10 @@
         "artname",
         "Bárcena",
         "Camelid",
-        "mainhead"
+        "lefteye",
+        "leftnostril",
+        "mainhead",
+        "righteye",
+        "rightnostril"
     ]
 }

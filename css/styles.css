@@ -21,13 +21,13 @@ body {
 
 .info {
     border: white 5px solid;
-    margin: 10px;
+    margin: 90px 0px 20px 0px;
 }
 
 .mainhead {
     display: flex;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .circle {
@@ -36,8 +36,12 @@ body {
     background-color: tan;
     border-radius: 50%;
     position: relative;
+    justify-content: center;
+    align-content: center;
     right: 0px;
     left: 0px;
+    border-top: 3px gray solid;
+    border-bottom: 3px gray solid;
 }
 
 .parallelogram {
@@ -49,6 +53,8 @@ body {
     top: 80px;
     left: 130px;
     border-radius: 20px;
+    border-bottom: 3px gray solid;
+    border-left: 3px gray solid;
 }
 
 .parallelogram2 {
@@ -60,4 +66,91 @@ body {
     top: 90px;
     right: 130px;
     border-radius: 20px;
+    border-top: 3px gray solid;
+    border-left: 3px gray solid;
+}
+
+.semi {
+    position: relative;
+    top: 232px;
+    left: -40px;
+    transform: rotate(210deg);
+    height: 134px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: tan;
+    border-top: 3px gray solid;
+}
+
+.eyes {
+    display:flex;
+}
+
+.lefteye {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px gray solid;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    right: 0px;
+    left: 12px;  
+    bottom: 45px;  
+}
+
+.righteye {
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    right: 0px;
+    left: 125px;
+    bottom: 25px;
+    border: 3px gray solid;
+}
+
+.nostrils {
+    display:flex;
+    transform: rotate(145deg);
+}
+
+.leftnostril {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    left:90px;
+    bottom: 55px;
+    border: 3px gray solid;
+}
+
+.rightnostril {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    left: 110px;
+    bottom: 50px;
+    border: 3px gray solid;
+}
+
+.mouth {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(145deg);
+    right: 50px;
+    border: 3px gray solid;
 }
