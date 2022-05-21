@@ -21,136 +21,98 @@ body {
 
 .info {
     border: white 5px solid;
-    margin: 90px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
-.mainhead {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0px 0px 0px;
-}
-
-.circle {
-    height: 300px;
-    width: 350px;
-    background-color: tan;
-    border-radius: 50%;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    right: 0px;
-    left: 0px;
-    border-top: 3px gray solid;
-    border-bottom: 3px gray solid;
-}
-
-.parallelogram {
-    width: 230px;
-	height: 100px;
-	transform: skew(20deg) rotate(100deg);
-	background: tan;
-    position:relative; 
-    top: 80px;
-    left: 130px;
-    border-radius: 20px;
-    border-bottom: 3px gray solid;
-    border-left: 3px gray solid;
-}
-
-.parallelogram2 {
-    width: 200px;
-	height: 100px;
-	transform: skew(340deg) rotate(90deg);
-	background: tan;
-    position:relative; 
-    top: 90px;
-    right: 130px;
-    border-radius: 20px;
-    border-top: 3px gray solid;
-    border-left: 3px gray solid;
-}
-
-.semi {
-    position: relative;
-    top: 232px;
-    left: -40px;
-    transform: rotate(210deg);
-    height: 134px;
-    width: 200px;
-    border-radius: 150px 150px 0 0;
-    background-color: tan;
-    border-top: 3px gray solid;
-}
-
-.eyes {
-    display:flex;
-}
-
-.lefteye {
-    height: 70px;
-    width: 70px;
-    background-color: black;
-    border-radius: 50%;
-    border: 3px gray solid;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    right: 0px;
-    left: 12px;  
-    bottom: 45px;  
-}
-
-.righteye {
-    height: 70px;
-    width: 70px;
-    background-color: black;
-    border-radius: 50%;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    right: 0px;
-    left: 125px;
-    bottom: 25px;
-    border: 3px gray solid;
-}
-
-.nostrils {
-    display:flex;
-    transform: rotate(145deg);
-}
-
-.leftnostril {
-    height: 35px;
-    width: 35px;
-    background-color: black;
-    border-radius: 50%;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    left:90px;
-    bottom: 55px;
-    border: 3px gray solid;
-}
-
-.rightnostril {
-    height: 30px;
-    width: 30px;
-    background-color: black;
-    border-radius: 50%;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    left: 110px;
-    bottom: 50px;
-    border: 3px gray solid;
-}
-
-.mouth {
-    height: 40px;
+#painting {
+    height: 400px;
+    width: 400px;
+    background: #fff4db;    
+    margin-top: 300px;
+    margin: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+  }
+    
+  #top-row {
+    height: 290px;
+  }
+  
+  #big-box {
+    width: 290px;
+    height: 290px;
+  }
+  
+  #bottom-left-box {
     width: 100px;
+    height: 100px;
+  }
+  
+  #bottom-right-column {
+    height: 100px;
+    width: 40px;
+  }
+  
+  #bottom-middle-box {
+    height: 100px;
+    width: 240px;
+  }
+    
+  #divider-1 {
+    height: 290px;
+    width: 10px;
+  }
+  
+  #divider-2 {
+    height: 10px;
+    width: 100px;
+  }
+  
+  #divider-3 {
+    height: 10px;
+    width: 400px;
+  }
+  
+  #divider-4 {
+    height: 100px;
+    width: 10px;
+  }
+  
+  #divider-5 {
+    height: 10px;
+    width: 50px;
+  }
+  
+  #divider-6 {
+    height: 100px;
+    width: 10px;
+  }
+    
+  .right {
+    float: right;
+  }
+  
+  .medium-box {
+    width: 100px;
+    height: 140px;
+  }
+  
+  .small-box {
+    width: 50px;
+    height: 45px;
+  }
+    
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .black {
     background-color: black;
-    border-radius: 50%;
-    transform: rotate(145deg);
-    right: 50px;
-    border: 3px gray solid;
-}
+  }
