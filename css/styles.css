@@ -1,118 +1,118 @@
 body {
-    background-color: #A0A0A0;
+  background-color: #A0A0A0;
 }
 
 .title {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .artname {
-    text-align: center;
-    color: white;
-    padding-top: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
 }
 
 .by {
-    text-align: center;
-    color: white;
-    padding-bottom: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
 }
 
 .info {
-    border: white 5px solid;
-    margin: 40px 0px 20px 0px;
+  border: white 5px solid;
+  margin: 40px 0px 20px 0px;
 }
 
 #painting {
-    height: 400px;
-    width: 400px;
-    background: #fff4db;    
-    margin-top: 300px;
-    margin: auto;
-    box-shadow: 10px 10px 0px #8d8d8d;
-  }
-    
-  #top-row {
-    height: 290px;
-  }
+  height: 400px;
+  width: 400px;
+  background: #fff4db;    
+  margin-top: 300px;
+  margin: auto;
+  box-shadow: 10px 10px 0px #8d8d8d;
+}
   
-  #big-box {
-    width: 290px;
-    height: 290px;
-  }
+#top-row {
+  height: 290px;
+}
+
+#big-box {
+  width: 290px;
+  height: 290px;
+}
+
+#bottom-left-box {
+  width: 100px;
+  height: 100px;
+}
+
+#bottom-right-column {
+  height: 100px;
+  width: 40px;
+}
+
+#bottom-middle-box {
+  height: 100px;
+  width: 240px;
+}
   
-  #bottom-left-box {
-    width: 100px;
-    height: 100px;
-  }
+#divider-1 {
+  height: 290px;
+  width: 10px;
+}
+
+#divider-2 {
+  height: 10px;
+  width: 100px;
+}
+
+#divider-3 {
+  height: 10px;
+  width: 400px;
+}
+
+#divider-4 {
+  height: 100px;
+  width: 10px;
+}
+
+#divider-5 {
+  height: 10px;
+  width: 50px;
+}
+
+#divider-6 {
+  height: 100px;
+  width: 10px;
+}
   
-  #bottom-right-column {
-    height: 100px;
-    width: 40px;
-  }
+.right {
+  float: right;
+}
+
+.medium-box {
+  width: 100px;
+  height: 140px;
+}
+
+.small-box {
+  width: 50px;
+  height: 45px;
+}
   
-  #bottom-middle-box {
-    height: 100px;
-    width: 240px;
-  }
-    
-  #divider-1 {
-    height: 290px;
-    width: 10px;
-  }
-  
-  #divider-2 {
-    height: 10px;
-    width: 100px;
-  }
-  
-  #divider-3 {
-    height: 10px;
-    width: 400px;
-  }
-  
-  #divider-4 {
-    height: 100px;
-    width: 10px;
-  }
-  
-  #divider-5 {
-    height: 10px;
-    width: 50px;
-  }
-  
-  #divider-6 {
-    height: 100px;
-    width: 10px;
-  }
-    
-  .right {
-    float: right;
-  }
-  
-  .medium-box {
-    width: 100px;
-    height: 140px;
-  }
-  
-  .small-box {
-    width: 50px;
-    height: 45px;
-  }
-    
-  .green {
-    background-color: green;
-  }
-  
-  .purple {
-    background-color: purple;
-  }
-  
-  .orange {
-    background-color: orange;
-  }
-  
-  .black {
-    background-color: black;
-  }
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.black {
+  background-color: black;
+}
